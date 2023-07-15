@@ -18,7 +18,7 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldCalculateForAmount1000AndGetExtraNull() {
         CashbackHackService service = new CashbackHackService();
-        int expected = 1_000;
+        int expected = 0;
         int actual = service.remain(1_000);
 
         assertEquals(actual, expected);
