@@ -25,7 +25,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldCalculateForAmount9100AndGetExtra100() {
+    public void shouldCalculateForAmount9200AndGetExtra800() {
         CashbackHackService service = new CashbackHackService();
         int expected = 800;
         int actual = service.remain(9_200);
